@@ -44,17 +44,3 @@ a:hover {
   grid-row: 2 / 3;
   background: #ccf;
 }
-
-#header .site-links {
-  float: right;
-  list-style: none;
-  margin: 0;
-}
-
-#header .site-links li {
-  float: left;
-}
-
-#header .home-link {
-  display: inline;
-}
