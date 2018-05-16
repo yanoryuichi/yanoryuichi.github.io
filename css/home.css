@@ -1,0 +1,41 @@
+body {
+  background-color: #ccc;
+}
+
+body > .container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 100px auto 100px;
+}
+
+#header {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  background: #cff;
+}
+
+#main {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  background: #ffc;
+}
+
+#footer {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  background: #fcf;
+}
+
+#header .site-links {
+  float: right;
+  list-style: none;
+  margin: 0;
+}
+
+#header .site-links li {
+  float: left;
+}
+
+#header .home-link {
+  display: inline;
+}
