@@ -1,5 +1,6 @@
 body {
   background-color: #ccc;
+  font-family: "Fira Mono";
 }
 
 body > .container {
