@@ -2,6 +2,5 @@
 layout: home
 ---
 
-Hello, my name is Ryuichi.
-
+Hello! My name is Ryuichi.  
 I'm a web software developer in Japan.
