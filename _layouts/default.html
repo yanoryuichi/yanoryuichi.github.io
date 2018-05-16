@@ -1,11 +1,14 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta charset="utf-8">
-<title>{{ page.title }}</title>
-</head>
+<!doctype html>
+{% include head.html %}
 <body>
-DEBUG: <br>
+{% include header.html %}
+<div id="main">
+<article>
 {{ content }}
+</article>
+{% include aside.html %}
+</div>
+{% include footer.html %}
+{% include script.html %}
 </body>
 </html>
