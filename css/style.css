@@ -32,7 +32,7 @@ body > .container {
   background: #ccf;
 }
 
-#header .site-links ul {
+#header .site-links {
   float: right;
   list-style: none;
 }
