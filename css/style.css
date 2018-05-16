@@ -32,8 +32,12 @@ body > .container {
   background: #ccf;
 }
 
-#header .site-links ul, #header .site-links li {
-  display: inline;
+#header .site-links ul {
+  float: right;
+}
+
+#header .site-links li {
+  float: left;
 }
 
 #header .home-link {
