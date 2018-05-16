@@ -21,3 +21,7 @@ body > .container {
   grid-row: 3 / 4;
   background: #fcf;
 }
+
+#main p {
+  margin: 0 auto;
+}
