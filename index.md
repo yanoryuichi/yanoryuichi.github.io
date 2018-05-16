@@ -1,2 +1,2 @@
-yanoryuichi.com
-===============
+Hello, my name is Ryuichi.
+I'm a web software developer in Japan.
