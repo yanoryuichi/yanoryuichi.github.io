@@ -1,5 +1,5 @@
 ---
-layout: home-page
+layout: home
 ---
 
 Hello, my name is Ryuichi.
