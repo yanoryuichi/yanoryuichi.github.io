@@ -16,3 +16,7 @@ body > .container {
   grid-column: 2 / 3;
   background: #cff;
 }
+
+.site-links li {
+  display: inline;
+}
