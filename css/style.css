@@ -3,9 +3,21 @@
 }
 
 #footer footer {
-  margin: 0 auto;
+  text-align: center;
 }
 
-.site-links li {
+#header .home-link {
+  display: inline;
+}
+
+#header .site-links {
+  float: right;
+  list-style: none;
+  margin: 0;
+}
+
+#header .site-links li {
+  display: block;
+  float: left;
   margin-right: 20px;
 }
