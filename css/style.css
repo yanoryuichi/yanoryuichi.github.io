@@ -8,14 +8,8 @@ body > .container {
   grid-template-rows: 100px auto 100px;
 }
 
-#header .home-link {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-  background: #fcc;
-}
-
-#header .site-links {
-  grid-column: 2 / 3;
+#header {
+  grid-column: 1 / 3;
   grid-row: 1 / 2;
   background: #cff;
 }
