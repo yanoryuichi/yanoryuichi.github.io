@@ -14,10 +14,6 @@ body > .container {
   background: #cff;
 }
 
-#header .site-links li {
-  display: inline;
-}
-
 #main {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
@@ -34,4 +30,12 @@ body > .container {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
   background: #ccf;
+}
+
+#header .site-links li {
+  display: inline;
+}
+
+#header .home-link {
+  display: inline;
 }
