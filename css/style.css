@@ -32,7 +32,7 @@ body > .container {
   background: #ccf;
 }
 
-#header .site-links li {
+#header .site-links ul, #header .site-links li {
   display: inline;
 }
 
