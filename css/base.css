@@ -4,7 +4,7 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-h1, h2, h3, h4, h5, a {
+h1, h2, h3, h4, h5 {
   font-weight: bold;
 }
 
@@ -13,7 +13,7 @@ a {
   text-decoration: none;
 }
 
-a: visited {
+a:visited {
   color: #933;
 }
 
@@ -24,7 +24,7 @@ a:hover {
 #top-container {
   display: grid;
   grid-template-columns: 150px 1fr;
-  grid-template-rows: 100px auto 100px;
+  grid-template-rows: 50px auto 100px;
 }
 
 #header {
