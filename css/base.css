@@ -1,5 +1,5 @@
 body {
-  background-color: #ccc;
+  background-color: #d8d8d8;
   font-family: "Fira Mono";
   font-family: 'Lato', sans-serif;
 }
@@ -9,7 +9,12 @@ h1, h2, h3, h4, h5, a {
 }
 
 a {
+  color: #215dc6;
   text-decoration: none;
+}
+
+a: visited {
+  color: #933;
 }
 
 a:hover {
