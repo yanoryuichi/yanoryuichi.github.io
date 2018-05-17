@@ -29,9 +29,10 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 #menu nav li {
   list-style: none;
+  width: 85px;
 }
