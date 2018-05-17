@@ -22,6 +22,10 @@
   margin-right: 20px;
 }
 
+#menu h3 {
+  margin-top: 10px;
+}
+
 #menu nav ul {
   margin: 0;
   padding: 0;
