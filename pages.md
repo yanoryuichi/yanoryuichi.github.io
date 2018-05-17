@@ -3,7 +3,7 @@ Pages
 
 [Git](/Git/git%20stash)
 
-- [Git/SubversionのリポジトリをGitで使う](/Git/SubversionのリポジトリをGitで使う)
+- [Git/SubversionのリポジトリをGitで使う](/Git/Subversion)
 - [Git/現在のブランチの親ブランチを調べる]     (/Git/現在のブランチの親ブランチを調べる)
 - [PowerShell/Start-Process]                   (/PowerShell/Start-Process)
 - [PowerShell/プロセス情報の参照]              (/PowerShell/プロセス情報の参照)
