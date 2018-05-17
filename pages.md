@@ -1,7 +1,7 @@
 Pages
 =====
 
-- [Git/git stash](/Git/git stash)
+[Git/git stash](/Git/git stash)
 - [Git/SubversionのリポジトリをGitで使う]      (/Git/SubversionのリポジトリをGitで使う)
 - [Git/現在のブランチの親ブランチを調べる]     (/Git/現在のブランチの親ブランチを調べる)
 - [PowerShell/Start-Process]                   (/PowerShell/Start-Process)
