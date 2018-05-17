@@ -21,3 +21,16 @@
   float: left;
   margin-right: 20px;
 }
+
+#menu nav ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#menu nav li {
+  list-style: none;
+}
