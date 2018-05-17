@@ -35,4 +35,5 @@
 #menu nav li {
   list-style: none;
   width: 85px;
+  margin: 0 0 15px 0;
 }
