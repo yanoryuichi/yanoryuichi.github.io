@@ -1,7 +1,7 @@
 Pages
 =====
 
-[Git](/Git/git stash)
+[Git](/Git/gitstash)
 
 - [Git/SubversionのリポジトリをGitで使う]      (/Git/SubversionのリポジトリをGitで使う)
 - [Git/現在のブランチの親ブランチを調べる]     (/Git/現在のブランチの親ブランチを調べる)
