@@ -8,12 +8,14 @@
 
 #header .home-link {
   display: inline;
+  font-weight: bold;
 }
 
 #header .site-links {
   float: right;
   list-style: none;
   margin: 0;
+  font-weight: bold;
 }
 
 #header .site-links li {
