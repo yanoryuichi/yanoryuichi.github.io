@@ -43,12 +43,16 @@
   width: 100px;
   margin: 0 0 5px 0;
   font-size: 0.85rem;
+}
+
+#menu nav li a {
   display: flex;
 }
 
 #menu nav li .icon {
   width: 20px;
   display: block;
+  margin: 0 auto;
 }
 
 #menu nav li .label{
