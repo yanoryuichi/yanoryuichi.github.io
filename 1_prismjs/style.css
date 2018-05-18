@@ -4,14 +4,16 @@ pre[class*="language-"] {
 	overflow: auto;
 	border-radius: 0;
 }
+
 :not(pre) > code[class*="language-"], pre[class*="language-"] {
     background-color: #e0ecff;
 }
 
 .token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string {
-background: none;
+    : none;
 }
 
 code[class*="language-"], pre[class*="language-"] {
     text-shadow: none;
+    font-family: "Fira Mono", monospace;
 }
