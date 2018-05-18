@@ -3,8 +3,7 @@
 ------------------------------------------------------------------------ */
 body {
   background-color: #fbfbfb;
-  font-family: "Fira Mono";
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", "游ゴシック Medium", "Yu Gothic Medium", 游ゴシック体, YuGothic, sans-serif;
   font-size: 1.6em;
 }
 
@@ -24,6 +23,10 @@ a:visited {
 
 a:hover {
   text-decoration: underline;
+}
+
+code {
+  font-family: "Fira Mono", monospace;
 }
 
 /* ------------------------------------------------------------------------
