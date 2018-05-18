@@ -1,15 +1,165 @@
 /* ------------------------------------------------------------------------
   Fonts
 ------------------------------------------------------------------------ */
+
 body {
   background-color: #f8f8f9;
   color: #323232;
   font-family: "Lato", "游ゴシック Medium", "Yu Gothic Medium", 游ゴシック体, YuGothic, sans-serif;
   font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .0625em;
+  line-height: 1.8em
 }
 
-h1, h2, h3, h4, h5 {
-  font-weight: bold;
+@media only screen and (min-device-width:320px) and (max-device-width:480px) {
+  body {
+    font-size: 1.4em;
+    line-height: 1.6em
+  }
+}
+
+p {
+  margin: 1.6rem 0 1.6rem 0
+}
+
+p a {
+  font-weight: 400;
+  text-decoration: underline;
+  text-underline-position: under
+}
+
+p a:focus,
+p a:hover {
+  color: #36c
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: .0625em;
+  margin: 3.2rem 0 1.6rem 0
+}
+
+h1 {
+  font-size: 3.2rem;
+  line-height: 3.2rem
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px) {
+  h1 {
+    font-size: 2.8rem;
+    line-height: 2.8rem
+  }
+}
+
+h2 {
+  font-size: 2.8rem;
+  line-height: 2.8rem
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px) {
+  h2 {
+    font-size: 2.4rem;
+    line-height: 2.4rem
+  }
+}
+
+h3 {
+  font-size: 2.4rem;
+  line-height: 2.4rem
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px) {
+  h3 {
+    font-size: 2rem;
+    line-height: 2rem
+  }
+}
+
+h4 {
+  font-size: 2.2rem;
+  line-height: 2.2rem
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px) {
+  h4 {
+    font-size: 1.8rem;
+    line-height: 1.8rem
+  }
+}
+
+h5 {
+  font-size: 2rem;
+  line-height: 2rem
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px) {
+  h5 {
+    font-size: 1.6rem;
+    line-height: 1.6rem
+  }
+}
+
+h6 {
+  font-size: 1.4rem;
+  line-height: 1.4rem
+}
+
+pre {
+  margin: 1.6rem 0 1rem 0;
+  padding: 1.6rem;
+  overflow-x: auto
+}
+
+code {
+  padding: .4rem .8rem .4rem .8rem
+  font-family: "Fira Mono", monospace;
+}
+
+blockquote {
+  border-left: 2px solid #dcdcdc;
+  padding-left: 1.6rem;
+  font-style: italic
+}
+
+th,
+td {
+  padding: 1.6rem
+}
+
+table {
+  border-collapse: collapse
+}
+
+table td,
+table th {
+  border: 2px solid #000
+}
+
+table tr:first-child th {
+  border-top: 0
+}
+
+table tr:last-child td {
+  border-bottom: 0
+}
+
+table tr td:first-child,
+table tr th:first-child {
+  border-left: 0
+}
+
+table tr td:last-child,
+table tr th:last-child {
+  border-right: 0
+}
+
+img {
+  max-width: 100%
 }
 
 a {
@@ -26,13 +176,10 @@ a:hover {
   text-decoration: underline;
 }
 
-code {
-  font-family: "Fira Mono", monospace;
-}
-
 /* ------------------------------------------------------------------------
   Layouts
 ------------------------------------------------------------------------ */
+
 #top-container {
   max-width: 70rem;
   margin: 0 auto;
@@ -41,6 +188,7 @@ code {
 /* ------------------------------------------------------------------------
   Grid
 ------------------------------------------------------------------------ */
+
 #top-container {
   display: grid;
   grid-template-columns: 150px 1fr;
