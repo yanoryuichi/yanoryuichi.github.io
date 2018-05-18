@@ -198,7 +198,7 @@ a:hover {
 
 #top-container {
   display: grid;
-  grid-template-columns: 185px 1fr;
+  grid-template-columns: 170px 1fr;
   grid-template-rows: 50px auto 100px;
 }
 
