@@ -56,8 +56,8 @@ h1 {
 }
 
 h2 {
-  font-size: 2.7rem;
-  line-height: 2.7rem;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
   margin: 35px 0 10px 5px;
   padding: 2px 0;
   padding-left: 0.8em;
@@ -67,14 +67,14 @@ h2 {
 
 @media only screen and (min-device-width:320px) and (max-device-width:480px) {
   h2 {
-    font-size: 2.2rem;
-    line-height: 2.2rem
+    font-size: 2.0rem;
+    line-height: 2.0rem
   }
 }
 
 h3 {
-  font-size: 2.4rem;
-  line-height: 2.4rem;
+  font-size: 2.2rem;
+  line-height: 2.2rem;
   margin: 15px 0 10px 0;
   padding: 0 0 0 5px;
   letter-spacing: 1px;
@@ -83,8 +83,8 @@ h3 {
 
 @media only screen and (min-device-width:320px) and (max-device-width:480px) {
   h3 {
-    font-size: 2rem;
-    line-height: 2rem
+    font-size: 1.8rem;
+    line-height: 1.8rem
   }
 }
 
