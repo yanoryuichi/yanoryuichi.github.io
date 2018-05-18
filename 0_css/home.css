@@ -34,3 +34,7 @@
   background: url(/0_images/top.png) center top no-repeat;
   padding-top: 85px;
 }
+
+#main article a {
+  line-height: 2.1em;
+}
