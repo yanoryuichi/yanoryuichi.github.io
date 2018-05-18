@@ -40,9 +40,7 @@
 
 #menu nav li {
   list-style: none;
-  width: 100px;
   margin: 0 0 5px 0;
-  font-size: 0.9rem;
 }
 
 #menu nav li a {
