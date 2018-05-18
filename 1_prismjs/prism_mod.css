@@ -1,20 +1,51 @@
 pre[class*="language-"] {
-	padding: 0.2 0.3em;
-	margin: .5em 0;
-	overflow: auto;
-	border-radius: 0;
+    padding: 0.2 0.3em;
+    margin: .5em 0;
+    overflow: auto;
+    border-radius: 0;
 }
 
-:not(pre) > code[class*="language-"], pre[class*="language-"] {
+:not(pre)>code[class*="language-"],
+pre[class*="language-"] {
     background-color: #e2e2e2;
 }
 
-.token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string {
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
     background: none;
 }
 
-code[class*="language-"], pre[class*="language-"] {
+code[class*="language-"],
+pre[class*="language-"] {
     text-shadow: none;
     font-family: "Fira Mono", monospace;
 }
 
+.token.function,
+.token.class-name {
+    color: #c43;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+    color: #215dc6;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+    color: #905;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+    color: #581;
+}
