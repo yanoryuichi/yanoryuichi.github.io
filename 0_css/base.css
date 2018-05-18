@@ -57,7 +57,12 @@ h1 {
 
 h2 {
   font-size: 2.7rem;
-  line-height: 2.7rem
+  line-height: 2.7rem;
+  margin: 35px 0 10px 5px;
+  padding: 2px 0;
+  padding-left: 0.8em;
+  border-left: 4px #1a1a1a solid;
+  letter-spacing: 1px;
 }
 
 @media only screen and (min-device-width:320px) and (max-device-width:480px) {
@@ -69,7 +74,11 @@ h2 {
 
 h3 {
   font-size: 2.4rem;
-  line-height: 2.4rem
+  line-height: 2.4rem;
+  margin: 15px 0 10px 0;
+  padding: 0 0 0 5px;
+  letter-spacing: 1px;
+  text-decoration: underline;
 }
 
 @media only screen and (min-device-width:320px) and (max-device-width:480px) {
