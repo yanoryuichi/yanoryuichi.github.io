@@ -45,10 +45,6 @@
   font-size: 0.85rem;
 }
 
-#menu nav li span {
-  margin-left: 10px;
-}
-
-#menu nav li:first-child {
-  margin-left: -2px;
+#menu nav li .icon {
+  width: 20px;
 }
