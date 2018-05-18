@@ -4,7 +4,7 @@
 body {
   background-color: #fbfbfb;
   font-family: "Lato", "游ゴシック Medium", "Yu Gothic Medium", 游ゴシック体, YuGothic, sans-serif;
-  font-size: 1.6em;
+  font-size: 16px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -33,7 +33,7 @@ code {
   Layouts
 ------------------------------------------------------------------------ */
 #top-container {
-  max-width: 100rem;
+  max-width: 75rem;
   margin: 0 auto;
 }
 
