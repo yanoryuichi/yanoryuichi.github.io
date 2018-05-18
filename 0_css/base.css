@@ -126,6 +126,8 @@ pre {
 code {
   padding: .4rem .8rem .4rem .8rem
   font-family: "Fira Mono", monospace;
+  font-size: 1.4rem;
+  letter-spacing: 0;
 }
 
 blockquote {
