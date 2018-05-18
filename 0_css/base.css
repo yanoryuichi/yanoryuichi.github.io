@@ -5,6 +5,7 @@ body {
   background-color: #fbfbfb;
   font-family: "Fira Mono";
   font-family: 'Lato', sans-serif;
+  font-size: 1.6em;
 }
 
 h1, h2, h3, h4, h5 {
@@ -29,7 +30,7 @@ a:hover {
   Layouts
 ------------------------------------------------------------------------ */
 #top-container {
-  max-width: 90rem;
+  max-width: 100rem;
   margin: 0 auto;
 }
 
