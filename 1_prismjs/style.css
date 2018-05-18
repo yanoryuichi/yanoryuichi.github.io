@@ -1,20 +1,20 @@
 pre[class*="language-"] {
-	padding: 0.2em;
+	padding: 0.2 0.3em;
 	margin: .5em 0;
 	overflow: auto;
 	border-radius: 0;
 }
 
 :not(pre) > code[class*="language-"], pre[class*="language-"] {
-    background-color: #e0ecff;
-    background-color: #c8ecff;
+    background-color: #e2e2e2;
 }
 
 .token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string {
-    : none;
+    background: none;
 }
 
 code[class*="language-"], pre[class*="language-"] {
     text-shadow: none;
     font-family: "Fira Mono", monospace;
 }
+
