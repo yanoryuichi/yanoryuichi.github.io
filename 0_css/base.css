@@ -44,37 +44,37 @@ h6 {
 }
 
 h1 {
-  font-size: 2.9rem;
-  line-height: 2.9rem
+  font-size: 2.8rem;
+  line-height: 2.8rem
 }
 
 @media only screen and (min-device-width:320px) and (max-device-width:480px) {
   h1 {
-    font-size: 2.4rem;
-    line-height: 2.4rem
+    font-size: 2.3rem;
+    line-height: 2.3rem
   }
 }
 
 h2 {
-  font-size: 2.5rem;
-  line-height: 2.5rem;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
   margin: 35px 0 10px 5px;
   padding: 2px 0;
-  padding-left: 0.8em;
+  padding-left: 0.5em;
   border-left: 4px #1a1a1a solid;
   letter-spacing: 1px;
 }
 
 @media only screen and (min-device-width:320px) and (max-device-width:480px) {
   h2 {
-    font-size: 2.0rem;
-    line-height: 2.0rem
+    font-size: 1.9rem;
+    line-height: 1.9rem
   }
 }
 
 h3 {
-  font-size: 2.2rem;
-  line-height: 2.2rem;
+  font-size: 2.1rem;
+  line-height: 2.1rem;
   margin: 15px 0 10px 0;
   padding: 0 0 0 5px;
   letter-spacing: 1px;
@@ -83,14 +83,14 @@ h3 {
 
 @media only screen and (min-device-width:320px) and (max-device-width:480px) {
   h3 {
-    font-size: 1.8rem;
-    line-height: 1.8rem
+    font-size: 1.7rem;
+    line-height: 1.7rem
   }
 }
 
 h4 {
-  font-size: 2.2rem;
-  line-height: 2.2rem
+  font-size: 2.1rem;
+  line-height: 2.1rem
 }
 
 @media only screen and (min-device-width:320px) and (max-device-width:480px) {
